@@ -1,0 +1,415 @@
+*{
+margin:0;
+padding:0 ;
+font-family:Arial, Helvetica, sans-serif ;}
+
+.container 
+{
+    width: 80%;   
+margin:0 auto;
+padding: 1%;
+
+}
+h2{
+    text-align: center;
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    font-weight: bold;
+   
+}
+
+.btn{
+    padding:1%;
+    border:none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn-primary{
+    background-color: rgb(153, 60, 165);
+    color:white;
+    cursor: pointer;
+    
+}
+.btn-primary:hover{
+    color:rgb(144, 105, 156)
+    
+}
+
+.clearfix{
+    clear:both;
+    float:none;
+}
+/*for navbar*/
+.navbar{
+    position:absolute;
+    background: transparent !important;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px rgba(255, 255, 255, 0.411);
+    
+    
+}
+.mx-auto{
+    width:100%;
+    margin-left: 30%!important;
+    
+}
+.navbar-light .navbar-brand{
+    color:white;
+    font-size: 1.2rem;
+}
+
+.lgo{
+    font-size: 2.5rem;
+    color: white;
+    font-family: cursive;
+    margin-left: 70
+px
+;
+    margin-top: 20
+px
+;
+}
+.input-group{
+    width:60%;  
+    
+}
+
+.form-control::placeholder{
+    color: rgb(10, 10, 10);
+}
+
+.form-control{
+    
+    border-radius: 30px;
+     
+}
+
+.searchbtn{
+    
+    transition: all 0.2s linear;
+    border-radius: 0 20px 20px 0;
+        
+        padding:4px;
+        left: 5px;
+
+}
+a{
+    color: #fff;
+}
+.mr-sm-2{
+    margin-right: 1px;
+}
+
+.input-group-append{
+    margin-left: -7px;
+}
+.nav-link{
+    color: #fff!important;
+    margin-right: 5px;
+
+}
+.nav-link:hover{
+    color:rgba(216,216,216)!important;
+}
+.navbar-nav{
+    padding-left: 70%;
+
+}
+
+#login{
+    border:2px solid #fff;
+    border-radius: 15px;
+    padding:0.2rem 1rem !important;
+    line-height: 30px;
+    font-weight: bold;
+}
+#login:hover{
+    background-color: #51d46d!important;
+    border: 2px solid #51d46d;
+    box-shadow: 0 0 10px #51d46d, 0 0 10px #51d46d;
+
+}
+#signup{
+    border:2px solid #fff;
+    border-radius: 15px;
+    padding:0.2rem 1rem !important;
+    line-height: 30px;
+    font-weight: bold;
+    
+}
+#signup:hover{
+    background-color: #51d46d!important;
+    border: 2px solid #51d46d;
+    box-shadow: 0 0 10px #51d46d, 0 0 10px #51d46d;
+    
+
+}
+
+.slider{
+    width:100%;
+    height:100vh;
+    background-image:url(../img/slider-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background: #0000008a;
+    width:100%;
+    height:100%;;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* next section*/
+.headtext{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.col{
+    color :#fff;
+    padding-left: 15%;
+    font-size: 3rem;
+    font-weight: bold;
+  
+    
+}
+.para{
+    font-size: 1rem;
+    font-weight: bold;
+    color :#fff;
+}
+.col ul li{
+    line-height: 50px;
+    list-style-type: none;
+    font-family: 'Kanit';
+
+
+}
+.col ul li:nth-child(2){
+    color: #fc1707;
+
+
+}
+.order-link{
+    color: #fff!important;
+    margin-right: 5px;
+}
+.order-link:hover{
+    color:rgba(216,216,216)!important;
+}
+#order{
+    border:2px solid #fff;
+    border-radius: 15px;
+    padding:0.2rem 1rem !important;
+    line-height: 30px;
+    
+    font-size: 1.2rem;
+}
+#order:hover{
+    background-color: #c0392b!important;
+    border: 2px solid #c0392b;
+    text-decoration: none;
+    box-shadow: 0 0 10px #c0392b, 0 0 10px #c0392b;
+
+}
+.menu-link{
+    color: #fff!important;
+    margin-right: 5px;
+}
+.menu-link:hover{
+    color:rgba(216,216,216)!important;
+}
+#seemenu{
+    
+    
+   
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#seemenu:hover{
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    
+
+}
+
+.finalcol{
+   
+width :45rem;
+
+}
+.finalcol img{
+   
+    width :70%;
+    
+    }
+
+/*searchbar*/
+.searchbar{
+    position:fixed;
+    top: 20px;
+    width:50%;
+    
+    
+}
+
+/* category section*/
+.categories{
+padding: 3% 0%;
+}
+.boxes {
+    
+    width:25%;
+    float:left;
+    margin: 4%;
+}
+.boximg{
+    width:100%;
+    border-radius: 20px;
+}
+h3{
+    font-size: 1.5rem;
+   
+}
+
+
+.text-black{
+    color:rgb(8, 8, 8);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.categoriesconfig{
+    width:100%;
+    border-radius: 22px;
+    box-shadow: 0 0 30px #000;;
+    
+}
+
+/*food menu*/
+.food-menu{
+    background:rgb(231, 231, 231);
+    padding: 4% 0;
+}
+.food1{
+
+width :25%;
+margin: 3%;
+padding: 1%;
+float:left;
+background:white;
+border-radius: 10%;
+}
+.foodmenuimg{
+    width:100%;
+}
+.food1config{
+    border-radius: 20px;
+    width:100%;
+}
+.foodmenudescription{
+    width:50%;
+}
+.textfloatcontain{
+    position: relative;
+}
+.title1text{
+    
+    font-size:1.2rem;
+    color: white;
+    bottom: 8%;
+    right:50%;
+}
+.title2text{
+    position:absolute;
+    padding-left:8px;
+    padding-right:8px;
+    top:5%;
+    left:90%;
+    font-size: 1rem;
+    
+}
+.recomend{
+    position:absolute;
+    padding-left:8px;
+    padding-right:8px;
+    top:1%;
+    right:83%;
+    
+
+}
+
+.rating{
+    
+    border-radius: 5px;
+    background:green
+}
+.food1price{
+    width:max-content;
+    font-size: 1.1rem;
+    color: rgb(56, 76, 192);
+    margin-bottom: 0rem;
+     
+}
+.fooddes{
+    width :max-content;
+    padding-top: 1px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+.discount{
+    
+    border-radius: 5px;
+    background:rgb(1, 32, 133)
+}
+.title3text{
+    position:absolute;
+    
+    bottom:25%;
+    right:85%;
+    font-size: 1rem;
+    
+}
+.recomendtext{
+    
+     color:gold;
+     }
+ .recomendtext .fa-star{
+    text-shadow: 0 0 15px gold, 
+                 0 0 30px gold,
+                 0 0 45px gold,
+                 0 0 60px gold;
+}
+.potatotext{
+    font-size: 2rem;
+}
+/*footer*/
+.cal{
+    margin-left: 90%;
+}
+#button-addon1 {
+    color: #1d34b3;
+  }
+  
+  i {
+    color: #1c3885;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+.imagesize{
+    margin-left: 30px;
+}
